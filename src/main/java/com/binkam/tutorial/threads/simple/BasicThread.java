@@ -1,4 +1,4 @@
-package com.binkam.tutorial.threads;
+package com.binkam.tutorial.threads.simple;
 
 /**
  * This class demonstrates a simple thread concept.
@@ -33,7 +33,7 @@ public class BasicThread {
      *  >>>>------Thread: 14-----> Binkam 4
      *  >>>>------Thread: 13-----> Binkam 3
      *  >>>>------Thread: 12-----> Binkam 2
-     *  
+     *
      * @param args
      */
     public static void main(String[] args) {
