@@ -1,16 +1,19 @@
-plugins {
-    id 'java'
-}
-
-group 'com.binkam'
-version '1.0.0'
-
-sourceCompatibility = 1.8
+apply plugin: 'java'
 
 repositories {
     mavenCentral()
 }
+group 'com.binkam'
 
+version '1.0.0'
+
+sourceCompatibility = 1.8
+
+
+jar {
+    baseName = 'tutorials'
+    version =  '1.0.0'
+}
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
